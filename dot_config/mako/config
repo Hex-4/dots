@@ -1,0 +1,12 @@
+font=JetBrainsMono Nerd Font
+
+background-color=#313244a0
+text-color=#cdd6f4
+width=400
+height=200
+border-size=3
+border-color=#fab387
+border-radius=6
+progress-color=over #f9e2af
+default-timeout=20000
+layer=overlay
