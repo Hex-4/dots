@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# usage: notify "message" [complete|error|info]
+msg="${1:-opencode}"
+status="${2:-info}"
+
+case "$status" in
+  complete) urgency="normal"; icon="dialog-information" ;;
+  error)    urgency="critical"; icon="dialog-error" ;;
+  *)        urgency="low"; icon="dialog-information" ;;
+esac
+
+notify-send -u "$urgency" -i "$icon" "opencode" "$msg"
