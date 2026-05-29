@@ -1,0 +1,1 @@
+{AMD/AMD Radeon RX 6500 XT (radeonsi, navi24, LLVM 17.0.6, DRM 3.54, 6.6.34)/4.6 (Core Profile) Mesa 24.1.1}=SUPPORTED

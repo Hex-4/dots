@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard version="1">
+    <commands>
+        <key command="GotoPreviousFrame" shortcut="Ctrl+Shift+Left" removed="true"/>
+        <key command="GotoPreviousFrame" shortcut="Shift+Left"/>
+        <key command="GotoNextFrame" shortcut="Shift+Left" removed="true"/>
+        <key command="GotoNextFrame" shortcut="Shift+Right"/>
+    </commands>
+    <tools/>
+    <quicktools>
+        <key tool="eyedropper" shortcut="Alt" removed="true"/>
+        <key tool="eyedropper" shortcut="Super"/>
+    </quicktools>
+    <actions/>
+    <wheel/>
+    <drag/>
+</keyboard>
