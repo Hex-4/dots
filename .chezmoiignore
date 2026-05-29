@@ -119,6 +119,7 @@
 .claude/settings.local.json
 .claude/projects
 .claude/tasks
+.claude/plugins
 .claude.json
 .agents/.skill-lock.json
 # opencode generated state
