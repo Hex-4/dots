@@ -1,0 +1,336 @@
+{
+    "packages": [
+        {
+            "current_version": "1.9.0",
+            "install_timestamp": 1728674292,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "info@freerouting.app",
+                        "web": "https://www.freerouting.app/"
+                    },
+                    "name": "Andras Fuchs"
+                },
+                "description": "Freerouting KiCad integration",
+                "description_full": "This is the official KiCad integration for Freerouting, an advanced autorouter.\nIt needs Java JRE 17, download it from https://adoptium.net/temurin/releases .\n",
+                "identifier": "app.freerouting.kicad-plugin",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "email": "info@freerouting.app"
+                    },
+                    "name": "Andras Fuchs"
+                },
+                "name": "Freerouting",
+                "resources": {
+                    "Github": "https://github.com/freerouting/freerouting/tree/master/integrations/KiCad"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "9806754c2448c6d4d6ea704f2627b2b31448fa39e8c4aa8c400dc19cecda0222",
+                        "download_size": 4568228,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.9.0.zip",
+                        "install_size": 5086728,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.9.0"
+                    },
+                    {
+                        "download_sha256": "ba428e2abe408ea5d3b97b451514b1e6ba5defe04a917e27b48c40e48d0d52b8",
+                        "download_size": 4309439,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.8.0.zip",
+                        "install_size": 4808684,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.8.0"
+                    },
+                    {
+                        "download_sha256": "62dc982998455e097744510b24331f1b33cee49cb90116b680349f6027618cef",
+                        "download_size": 4304221,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.7.1.zip",
+                        "install_size": 4797518,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.7.1"
+                    },
+                    {
+                        "download_sha256": "d737320dcc835c53975d5d4cbb99afe8e05ed015f41858d350ccffbc456cb424",
+                        "download_size": 4304240,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.7.0.zip",
+                        "install_size": 4797408,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.7.0"
+                    },
+                    {
+                        "download_sha256": "5b7b92448851e982dc31d54c344b6bc74e08e109ef67beae83f321aa50ffab58",
+                        "download_size": 4303331,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.6.zip",
+                        "install_size": 4796646,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.6.6"
+                    },
+                    {
+                        "download_sha256": "8eccd96f48a5f9f77b2e9c33a9fbcc99c6b12c11fdedb4d19356b7a1216497f7",
+                        "download_size": 4301604,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.5.zip",
+                        "install_size": 4793969,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.6.5"
+                    },
+                    {
+                        "download_sha256": "a72f4e5b5cedfee3ecea474315e6fc94e11fcb5480dc77a944dfe67fb2e96367",
+                        "download_size": 4095649,
+                        "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.2.zip",
+                        "install_size": 4526306,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.6.2"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2024.08.17",
+            "install_timestamp": 1727747643,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "description": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA",
+                "description_full": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA.\n For usage and correct setup please read the Readme: \n https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application",
+                "identifier": "com.github.Steffen-W.impartGUI",
+                "keep_on_update": [
+                    ".*/config.ini"
+                ],
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "name": "impart GUI for KiCad",
+                "resources": {
+                    "homepage": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin"
+                },
+                "tags": [
+                    "import",
+                    "library",
+                    "octopart",
+                    "samacsys",
+                    "ultralibrarian",
+                    "snapeda",
+                    "easyeda"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "ca4714f8ba62d3ed148465791bd66449102a2da0f5c78a23e84b5dd2744965a5",
+                        "download_size": 65343,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.08.17/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 217649,
+                        "kicad_version": "8.00",
+                        "status": "stable",
+                        "version": "2024.08.17"
+                    },
+                    {
+                        "download_sha256": "d548dfe9deda47b4a718da35a13215b53016f8bef2d671a421ddfaeccb9943ea",
+                        "download_size": 27869,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.07.11/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 72200,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.07.11"
+                    },
+                    {
+                        "download_sha256": "3c4c926d7a00bce0edfcd1ad20ba3be52bb2494f529b2c6198081525dbc32262",
+                        "download_size": 27837,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.04.08/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 72143,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.04.08"
+                    },
+                    {
+                        "download_sha256": "747bfdbfc34edc160cbf6f77462c16aa5064c68c1adc076930a1a1c7fef0f695",
+                        "download_size": 27824,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.02.24/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 71950,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.02.24"
+                    },
+                    {
+                        "download_sha256": "2d12590b3e6a0d6e0ff0332b62edc5de5d8abf1af91d6b0d39de841d7d2c55c4",
+                        "download_size": 27761,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2023.10.20/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 71362,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2023.10.20"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "4.4.1",
+            "install_timestamp": 1726788380,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "description": "JLC PCB fabrication toolkit\nAutomate PCB fabrication process in conjunction with JLC PCB",
+                "description_full": "Toolkit for automating PCB fabrication process with KiCad and JLC PCB. \n\n OPTIONS: \n• Include Component Part Number in Production Files \n Add an 'MPN' field with the LCSC component part number to the footprint component options.  \n\n• Ignore Footprint in Production Files \n Select 'Exclude from position files' or 'Exclude from BOM' in the footprint properties fabrication attributes in order to ignore the footprint from the relevant file.",
+                "identifier": "com.github.bennymeg.JLC-Plugin-for-KiCad",
+                "license": "Apache-2.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "name": "Fabrication Toolkit",
+                "resources": {
+                    "homepage": "https://github.com/bennymeg/JLC-Plugin-for-KiCad"
+                },
+                "tags": [
+                    "jlc",
+                    "production",
+                    "fabrication",
+                    "toolkit"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "0dd039c9f8863033ed4847b89feae1013574051866aa9a4e4e7fbb364cd16ae3",
+                        "download_size": 17701,
+                        "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/4.4.1/JLC-Plugin-for-KiCad-4.4.1.zip",
+                        "install_size": 43365,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "4.4.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2.4",
+            "install_timestamp": 1726959165,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "perigoso@riseup.net"
+                    },
+                    "name": "Rafael Silva (perigoso)"
+                },
+                "description": "Keyboard switch footprint library",
+                "description_full": "This package contains footprints for popular keyboard switches, these are generated automatically.\nSupported footprints:\n\n- Cherry MX or equivalent, Plate and PCB mount.\n- Alps/Matias or equivalent.\n- Hybrid footprints for Cherry MX and Alps/Matias (accepts both).\n- Kailh Choc low profile switches (version 1).\n- Kailh Hotswap sockets for Cherry MX equivalent switches.\n",
+                "identifier": "com.github.perigoso.keyswitch-kicad-library",
+                "license": "CC-BY-SA-4.0",
+                "name": "Keyswitch Kicad Library",
+                "resources": {
+                    "Github": "https://github.com/perigoso/keyswitch-kicad-library"
+                },
+                "tags": [
+                    "footprint",
+                    "library",
+                    "keyswitch",
+                    "keyboard"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "b38d56323acb91ad660567340ca938c5b4a83a27eea52308ef14aa7857b0071b",
+                        "download_size": 7808392,
+                        "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.4/keyswitch-kicad-library.zip",
+                        "install_size": 37552156,
+                        "kicad_version": "5.1",
+                        "status": "stable",
+                        "version": "2.4"
+                    },
+                    {
+                        "download_sha256": "869fe4ce7e988f6cbbf8c0411d94c1a5c32244bdef6eca589048e7cc31e341a5",
+                        "download_size": 7922892,
+                        "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.3/keyswitch-kicad-library.zip",
+                        "install_size": 38217581,
+                        "kicad_version": "5.1",
+                        "status": "stable",
+                        "version": "2.3"
+                    },
+                    {
+                        "download_sha256": "e3cfede28eb7cf1d590d149bfc292fa8d772bc3b33bc52b83a87bcae1ba3f7e8",
+                        "download_size": 7539262,
+                        "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.2/keyswitch-kicad-library.zip",
+                        "install_size": 36095418,
+                        "kicad_version": "5.1",
+                        "status": "stable",
+                        "version": "2.2"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0",
+            "install_timestamp": 1726788381,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://github.com/wykys"
+                    },
+                    "name": "Jan Vykydal"
+                },
+                "description": "Designed by wykys, Inspired by One Dark",
+                "description_full": "Designed by wykys, Inspired by One Dark",
+                "identifier": "com.github.pointhi.kicad-color-schemes.wdark",
+                "license": "CC0-1.0",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://github.com/pointhi/kicad-color-schemes/"
+                    },
+                    "name": "Thomas Pointhuber"
+                },
+                "name": "wDark Theme",
+                "resources": {
+                    "Github": "https://github.com/pointhi/kicad-color-schemes"
+                },
+                "type": "colortheme",
+                "versions": [
+                    {
+                        "download_sha256": "9e58f7e6032dd40221dc80817dc992f233eba1858d590104c3445d41abcc136a",
+                        "download_size": 4289,
+                        "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.wdark_v1.0_pcm.zip",
+                        "install_size": 5490,
+                        "kicad_version": "5.99",
+                        "status": "stable",
+                        "version": "1.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
