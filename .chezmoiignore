@@ -91,3 +91,35 @@
 
 # machine-specific fish state
 .config/fish/fish_variables
+# agent session logs (massive, ephemeral)
+.config/opencode/session-ses_*.md
+.config/opencode/node_modules
+.config/opencode/describer-cache.sqlite
+.config/opencode/pioneer-keys.json
+.config/opencode/pioneer-keys.txt
+.config/opencode/orthogonal-keys.json
+.config/opencode/inkbox-identities.json
+.config/opencode/pyrelight-proxy-cache.json
+.config/opencode/*.bak
+# claude history + state (private + massive)
+.claude/history.jsonl
+.claude/backups
+.claude/cache
+.claude/debug
+.claude/file-history
+.claude/paste-cache
+.claude/session-env
+.claude/sessions
+.claude/shell-snapshots
+.claude/telemetry
+.claude/stats-cache.json
+.claude/downloads
+.claude/.last-cleanup
+.claude/.env
+.claude/settings.local.json
+.claude/projects
+.claude/tasks
+.claude.json
+.agents/.skill-lock.json
+# opencode generated state
+.config/opencode/tui.json

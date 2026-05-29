@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:8082",
+    "ANTHROPIC_API_KEY": "meow :3",
+    "CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.ai.moda)",
+      "Bash(bunx tsc *)"
+    ],
+    "defaultMode": "auto"
+  },
+  "model": "opus[1m]",
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.local/bin/notify 'bruh come back i need u' input"
+          }
+        ]
+      }
+    ]
+  },
+  "effortLevel": "xhigh",
+  "tui": "fullscreen",
+  "showThinkingSummaries": true,
+  "theme": "dark",
+  "verbose": true,
+  "skipAutoPermissionPrompt": true,
+  "skipDangerousModePermissionPrompt": true
+}
